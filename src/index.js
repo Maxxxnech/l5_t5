@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render(
+import ErrorBoundry from "./components/ErrorBoundary";
+
+ReactDOM.render(    
     <App />,
   document.getElementById('root')
 );
